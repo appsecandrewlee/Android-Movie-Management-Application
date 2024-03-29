@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+<TextView
+    android:id="@+id/textView24"
+    android:layout_width="87dp"
+    android:layout_height="40dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="16dp"
+    android:text="Keywords"
+    app:layout_constraintEnd_toStartOf="@+id/guideline4"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toStartOf="@+id/guideline3"
+    app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+<TextView
+    android:id="@+id/textView23"
+    android:layout_width="82dp"
+    android:layout_height="39dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="16dp"
+    android:text="Cost"
+    app:layout_constraintEnd_toStartOf="@+id/guideline4"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="@+id/guideline3"
+    app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+<EditText
+    android:id="@+id/CountryName"
+    android:layout_width="218dp"
+    android:layout_height="0dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="50dp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    app:layout_constraintBaseline_toBaselineOf="@+id/textView21"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.678"
+    app:layout_constraintStart_toStartOf="@+id/guideline4"
+    app:layout_constraintTop_toBottomOf="@+id/YearNum" />
+
+<EditText
+    android:id="@+id/Genre"
+    android:layout_width="218dp"
+    android:layout_height="0dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="50dp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    app:layout_constraintBaseline_toBaselineOf="@+id/textView22"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.678"
+    app:layout_constraintStart_toStartOf="@+id/guideline4"
+    app:layout_constraintTop_toBottomOf="@+id/CountryName" />
+
+<TextView
+    android:id="@+id/textView21"
+    android:layout_width="0dp"
+    android:layout_height="39dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="16dp"
+    android:text="Country"
+    app:layout_constraintEnd_toStartOf="@+id/guideline4"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="@+id/guideline3"
+    app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+<EditText
+    android:id="@+id/SearchTitle"
+    android:layout_width="218dp"
+    android:layout_height="0dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="50dp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    app:layout_constraintBaseline_toBaselineOf="@+id/textView13"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.678"
+    app:layout_constraintStart_toStartOf="@+id/guideline4"
+    app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="91dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="buttonClicked"
+        android:text="add movie"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.968"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+<androidx.constraintlayout.widget.Guideline
+    android:id="@+id/guideline2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    app:layout_constraintGuide_begin="91dp" />
+
+<androidx.constraintlayout.widget.Guideline
+    android:id="@+id/guideline3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintGuide_begin="40dp" />
+
+<androidx.constraintlayout.widget.Guideline
+    android:id="@+id/guideline4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintGuide_begin="155dp" />
+
+<TextView
+    android:id="@+id/textView10"
+    android:layout_width="284dp"
+    android:layout_height="45dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="100dp"
+    android:layout_marginBottom="16dp"
+    android:fontFamily="sans-serif-black"
+    android:text="Andrew Lee"
+    android:textColor="#050505"
+    android:textSize="24sp"
+    app:layout_constraintBottom_toTopOf="@+id/guideline2"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.857" />
+
+<TextView
+    android:id="@+id/textView13"
+    android:layout_width="0dp"
+    android:layout_height="35dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="16dp"
+    android:text="Title"
+    app:layout_constraintEnd_toStartOf="@+id/guideline4"
+    app:layout_constraintHorizontal_bias="0.928"
+    app:layout_constraintStart_toStartOf="@+id/guideline3"
+    app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+<TextView
+    android:id="@+id/textView15"
+    android:layout_width="0dp"
+    android:layout_height="39dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="16dp"
+    android:text="Year"
+    app:layout_constraintEnd_toStartOf="@+id/guideline4"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="@+id/guideline3"
+    app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+<TextView
+    android:id="@+id/textView22"
+    android:layout_width="82dp"
+    android:layout_height="39dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="16dp"
+    android:text="Genre"
+    app:layout_constraintEnd_toStartOf="@+id/guideline4"
+    app:layout_constraintStart_toStartOf="@+id/guideline3"
+    app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+<EditText
+    android:id="@+id/YearNum"
+    android:layout_width="220dp"
+    android:layout_height="0dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="50dp"
+    android:ems="10"
+    android:inputType="number"
+    app:layout_constraintBaseline_toBaselineOf="@+id/textView15"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.633"
+    app:layout_constraintStart_toStartOf="@+id/guideline4"
+    app:layout_constraintTop_toBottomOf="@+id/SearchTitle" />
+
+<EditText
+    android:id="@+id/Cost"
+    android:layout_width="90dp"
+    android:layout_height="40dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="4dp"
+    android:ems="10"
+    android:inputType="number"
+    app:layout_constraintBaseline_toBaselineOf="@+id/textView23"
+    app:layout_constraintStart_toStartOf="@+id/guideline4"
+    app:layout_constraintTop_toBottomOf="@+id/Genre" />
+
+<EditText
+    android:id="@+id/Keywords"
+    android:layout_width="224dp"
+    android:layout_height="51dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="116dp"
+    android:layout_marginEnd="50dp"
+    android:ems="10"
+    android:gravity="start|top"
+    android:inputType="textMultiLine"
+    app:layout_constraintBaseline_toBaselineOf="@+id/textView24"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.558"
+    app:layout_constraintStart_toStartOf="@+id/guideline4"
+    app:layout_constraintTop_toBottomOf="@+id/Cost" />
+
+    <Button
+        android:id="@+id/costid"
+        android:layout_width="126dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="62dp"
+        android:onClick="add1000"
+        android:text="add"
+        app:layout_constraintBottom_toBottomOf="@+id/Keywords"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/Cost"
+        app:layout_constraintTop_toTopOf="@+id/Genre" />
+
+<EditText
+    android:id="@+id/Actors"
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="16dp"
+    android:ems="10"
+    android:hint="input a number of actors"
+    android:inputType="number"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.25"
+    app:layout_constraintStart_toStartOf="@+id/guideline4"
+    app:layout_constraintTop_toBottomOf="@+id/Keywords" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="82dp"
+        android:layout_height="47dp"
+        android:onClick="buttonClicked"
+        android:text="clear "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.63"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.057" />
+
+<EditText
+    android:id="@+id/plusone"
+    android:layout_width="47dp"
+    android:layout_height="1dp"
+    android:ems="10"
+    android:inputType="number"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="@+id/guideline4" />
+
+    <ListView
+        android:id="@+id/listview_id"
+        android:layout_width="162dp"
+        android:layout_height="208dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toBottomOf="@+id/Actors"
+        app:layout_constraintVertical_bias="0.395" />
+
+    <FrameLayout
+        android:id="@+id/frame_layout_id"
+        android:layout_width="174dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginBottom="59dp"
+        android:background="@drawable/ic_launcher_background"
+        android:outlineAmbientShadowColor="@color/purple_700"
+        android:outlineSpotShadowColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clear"
+        app:layout_constraintVertical_bias="1.0">
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/getX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="187dp"
+        android:layout_marginBottom="16dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/listview_id"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frame_layout_id"
+        app:layout_constraintVertical_bias="0.458" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/drawer_layout_remove_last_item_id"
+        android:title="Remove Last Item" />
+    <item
+        android:id="@+id/drawer_layout_add_item_id"
+        android:title="Add Item" />
+    <item
+        android:id="@+id/drawer_layout_id"
+        android:title="Remove All items" />
+    <item
+        android:id="@+id/drawer_layout_id_listallmovies"
+        android:title="List All movies" />
+
+</menu>
